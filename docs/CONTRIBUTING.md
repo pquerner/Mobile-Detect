@@ -41,13 +41,13 @@ By making a contribution to this project, I certify that:
 
 1. Fork Mobile Detect repository. See ["How to fork"](https://help.github.com/articles/fork-a-repo/#fork-an-example-repository) example.
 2. `git clone https://github.com/[yourname]/Mobile-Detect.git`
-3. `git add remote serbanghita https://github.com/serbanghita/Mobile-Detect.git`
+3. `git remote add serbanghita https://github.com/serbanghita/Mobile-Detect.git`
 4. `git remote -v` - You should see:
     ```
     origin       git@github.com:serbanghita/Mobile-Detect.git
     serbanghita  https://github.com/serbanghita/Mobile-Detect.git
     ```
-5. `git checkout -b devel origin/devel`
+5. `git checkout -b devel origin/devel-3`
 6. `composer install`
    1. On Windows use `php composer.phar update` first.
 7. Start working on your changes.
