@@ -47,7 +47,7 @@ By making a contribution to this project, I certify that:
     origin       git@github.com:serbanghita/Mobile-Detect.git
     serbanghita  https://github.com/serbanghita/Mobile-Detect.git
     ```
-5. `git checkout -b devel origin/devel`
+5. `git checkout -b devel origin/devel-3`
 6. `composer install`
    1. On Windows use `php composer.phar update` first.
 7. Start working on your changes.
